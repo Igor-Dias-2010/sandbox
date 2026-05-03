@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.number {
+  margin: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 60px;
+}
+
+.page-contador {
+  display: flex;
+  justify-content: center;
+}
+
+.page-contador button {
+  line-height: 0;
+  font-size: 20px;
+  width: 35px;
+  height: 35px;
+}
+
+button {
+  width: 70px;
+  height: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+button:hover{
+  transform: scale(1.1);
+}
+button:active{
+  transform: scale(0.9);
+}
+
+.number {
+  transition: 0.3s;
+}
+
+.positivo {
+  color: green;
+}
+
+.negativo {
+  color: red;
+}
+
+nav svg {
+  line-height: 0;
+  margin-top: 5px;
+}
+
+nav {
+  background-color: rgb(197, 197, 197);
+  border-bottom: 1px solid black;
+  width: 100vw;
+  align-self: stretch;
+}
+
+a {
+  color: black;
+}
