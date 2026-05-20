@@ -11,6 +11,9 @@ export default function Home() {
                 <button>
                     <Link href={'/gerar-confeti'}>Gerador de confeti</Link>
                 </button>
+                <button>
+                    <Link href={'/botao-fugitivo'}>Botão impossível</Link>
+                </button>
             </div>
         </div>
     )

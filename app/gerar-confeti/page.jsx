@@ -11,10 +11,10 @@ export default function Confetti() {
         })
     }
     return(
-        <div>
+        <div className="main">
             <Navbar />
             <h1>Gerador de confeti</h1>
-            <button onClick={soltarConfeti}>Confeti</button>
+            <button onClick={soltarConfeti} className="botao">Confeti</button>
         </div>
     )
 }

@@ -11,7 +11,7 @@ export default function Contador() {
             number < 0 ? 'negativo' :
                 ""
     return (
-        <div>
+        <div className="main">
             <Navbar />
             <h1>Contador</h1>
             <p className={`number ${numberClass}`}>{number}</p>
