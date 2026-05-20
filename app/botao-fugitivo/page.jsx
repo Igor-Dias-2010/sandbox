@@ -19,7 +19,11 @@ export default function BotaoFugitivo() {
       <p>Clique nesse botão</p>
       <button
         className="botao"
-        onMouseEnter={fugir}
+        onPointerEnter={fugir}
+        onTouchStart={(e) => {
+            e.preventDefault()
+            fugir(e)
+        }}
         style={{ position: "relative", transition: "0.1s" }}
       >
         Me clique

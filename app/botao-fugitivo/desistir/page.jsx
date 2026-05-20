@@ -42,7 +42,11 @@ export default function Desistir() {
       <p>Mas você ainda pode tentar outros jogos:</p>
       <button
         className="botao"
-        onMouseEnter={fugir}
+        onPointerEnter={fugir}
+        onTouchStart={(e) => {
+          e.preventDefault();
+          fugir(e);
+        }}
         style={{
           textDecoration: "underline",
           position: "relative",
