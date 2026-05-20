@@ -42,7 +42,7 @@ export default function Desistir() {
       <p>Mas você ainda pode tentar outros jogos:</p>
       <button
         className="botao"
-        onPointerMove={fugir}
+        onPointerEnter={fugir}
         style={{
           textDecoration: "underline",
           position: "relative",
