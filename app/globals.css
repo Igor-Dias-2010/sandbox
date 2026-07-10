@@ -1,91 +1,116 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
+.hacker-theme {
+    background-color: black;
+    color: rgb(0, 255, 0);
+}
+.dark-theme{
+    background-color: black;
+    color: rgb(22, 22, 22);
+}
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  background-color: rgb(255, 255, 255);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    transition: 0.3s;
 }
 
 .number {
-  margin: 20px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 60px;
+    margin: 20px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 60px;
 }
 
 .page-contador {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .page-contador button {
-  line-height: 0;
-  font-size: 20px;
-  width: 35px;
-  height: 35px;
+    line-height: 0;
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
 }
 
 button {
-  width: 75px;
-  height: 50px;
-  cursor: pointer;
-  transition: 0.3s;
-  margin-left: 5px;
-  margin-right: 5px;
+    width: 75px;
+    height: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: 5px;
+    margin-right: 5px;
 }
-button:hover{
-  transform: scale(1.1);
+button:hover {
+    transform: scale(1.1);
 }
-button:active{
-  transform: scale(0.9);
+button:active {
+    transform: scale(0.9);
 }
 
-.links{
-  margin-top: 20px;
-  display: grid;
-  align-items: center;
-  grid-template-columns: 2fr 2fr;
-  gap: 8px;
+.links {
+    margin-top: 20px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 2fr 2fr;
+    gap: 8px;
 }
 .number {
-  transition: 0.3s;
+    transition: 0.3s;
 }
 
 .positivo {
-  color: green;
+    color: green;
 }
 
 .negativo {
-  color: red;
+    color: red;
 }
 
 nav svg {
-  line-height: 0;
-  margin-top: 5px;
+    line-height: 0;
+    margin-top: 5px;
 }
 
 nav {
-  background-color: rgb(197, 197, 197);
-  border-bottom: 1px solid black;
-  width: 100vw;
-  align-self: stretch;
+    background-color: rgb(197, 197, 197);
+    border-bottom: 1px solid black;
+    width: 100vw;
+    align-self: stretch;
 }
 
 a {
-  color: black;
+    color: black;
 }
-.botao{
-  margin-top: 20px;
+.botao {
+    margin-top: 20px;
 }
-.main{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.page-comandos {
+    display: flex;
+    justify-content: center;
+}
+
+.page-comandos button {
+    line-height: 0;
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+}
+input {
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 2px solid black;
+    border-radius: 3px;
 }

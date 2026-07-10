@@ -1,20 +1,23 @@
-import Link from "next/link"
+import Link from "next/link";
 
 export default function Home() {
     return (
         <div>
             <h1>Sandbox</h1>
             <div className="links">
-                <button>
-                    <Link href={'/contador'}>Contador</Link>
-                </button>
-                <button>
-                    <Link href={'/gerar-confeti'}>Gerador de confeti</Link>
-                </button>
-                <button>
-                    <Link href={'/botao-fugitivo'}>Botão impossível</Link>
-                </button>
+                <Link href={"/contador"}>
+                    <button>Contador</button>
+                </Link>
+                <Link href={"/gerar-confeti"}>
+                    <button>Gerador de confeti</button>
+                </Link>
+                <Link href={"/botao-fugitivo"}>
+                    <button>Botão impossível</button>
+                </Link>
+                <Link href={"/comandos"}>
+                    <button>Comandos</button>
+                </Link>
             </div>
         </div>
-    )
+    );
 }
