@@ -21,6 +21,12 @@ export default function Comandos() {
                 document.body.className = "";
             },
         },
+        "crazy-thm": {
+            descricao: "Deixa o fundo colorido",
+            executar: () => {
+                document.body.className = "crazy-theme"
+            },
+        },
         "hacker-thm": {
             descricao: "Ativa o tema hacker.",
             executar: () => {

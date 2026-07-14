@@ -11,6 +11,55 @@
     background-color: black;
     color: rgb(22, 22, 22);
 }
+.crazy-theme{
+    animation: crazy-bg 1s infinite;
+}
+@keyframes crazy-bg{
+    0%{
+        background-color: red;
+        color: black;
+    }
+    10%{
+        background-color: blue;
+        color: red;
+    }
+    20%{
+        background-color: purple;
+        color: yellowgreen;
+    }
+    30%{
+        background-color: black;
+        color: white;
+    }
+    40%{
+        background-color: green;
+        color: gold;
+    }
+    50%{
+        background-color: orange;
+        color: green;
+    }
+    60%{
+        background-color: brown;
+        color: orangered;
+    }
+    70%{
+        background-color: pink;
+        color: gray;
+    }
+    80%{
+        background-color: white;
+        color: purple;
+    }
+    90%{
+        background-color: gray;
+        color: blue;
+    }
+    100%{
+        backgorund-color: yellow;
+        color: black;
+    }
+}
 body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
